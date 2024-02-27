@@ -4,9 +4,6 @@ import java.util.List;
 
 import com.driver.shared.dto.FoodDto;
 
-/**
- * Handle exception cases for all methods which throw Exception
- */
 public interface FoodService {
 
 	FoodDto createFood(FoodDto food);

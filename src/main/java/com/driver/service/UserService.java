@@ -4,9 +4,6 @@ import java.util.List;
 
 import com.driver.shared.dto.UserDto;
 
-/**
- * Handle exception cases for all methods which throw Exception
- */
 public interface UserService{
 
 	UserDto createUser(UserDto user) throws Exception;

@@ -4,9 +4,6 @@ import java.util.List;
 
 import com.driver.shared.dto.OrderDto;
 
-/**
- * Handle exception cases for all methods which throw Exception
- */
 public interface OrderService {
 
 	OrderDto createOrder(OrderDto order);
